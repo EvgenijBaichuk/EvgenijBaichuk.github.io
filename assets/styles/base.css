@@ -193,3 +193,8 @@ flex-direction: row;
 .center_column > footer {
   border-radius: 0 0 1em 1em;
 }
+
+.movie-description img:hover,
+.movie-img:hover {
+  transform: rotate(10deg) scale(2, 2);
+}
